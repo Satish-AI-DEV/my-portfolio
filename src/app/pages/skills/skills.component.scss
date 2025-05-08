@@ -1,0 +1,28 @@
+.skills {
+    background: #f4f7fa;
+  
+    h2 {
+      font-weight: bold;
+      margin-bottom: 2rem;
+      color: #333;
+    }
+  
+    .skill-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: default;
+  
+      &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+      }
+  
+      i {
+        transition: transform 0.3s ease;
+      }
+  
+      &:hover i {
+        transform: scale(1.2);
+      }
+    }
+  }
+  
